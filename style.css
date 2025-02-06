@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.container {
+  padding: 10px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.timer {
+  font-size: 100px;
+}
+
+#btn_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+#time_section {
+  margin-bottom: 20px;
+}
+.btn {
+  border: none;
+  padding: 15px 32px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+li {
+  list-style: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  text-align: start;
+}
+
+/* edit scrollbar */
+.scrollbar {
+  max-height: 196px;
+  overflow-y: auto;
+}
+
+#style-1::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  /* background-color: #F5F5F5; */
+}
+
+#style-1::-webkit-scrollbar {
+  width: 8px;
+  /* background-color: #F5F5F5; */
+}
+
+#style-1::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555;
+}
